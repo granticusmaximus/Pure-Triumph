@@ -1,8 +1,8 @@
 # Pure-Triumph
 ## Technologies run on this web applications:
-*[ReactJS](https://reactjs.org/)
-*[PostGRE SQL](https://www.postgresql.org)
-*[TypeScript](https://www.typescriptlang.org/) 
+* [ReactJS](https://reactjs.org/)
+* [PostGRE SQL](https://www.postgresql.org)
+* [TypeScript](https://www.typescriptlang.org/) 
 
 ### My personal use for this boilerplate: 
 
