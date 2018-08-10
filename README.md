@@ -12,3 +12,9 @@
   * Grow in my server maintenance skills
   
   
+This project is utilizing 
+```npm install```
+
+and 
+
+```create-react-app```
