@@ -12,9 +12,25 @@
   * Grow in my server maintenance skills
   
   
-This project is utilizing 
-```npm install```
+This project is utilizing ```npm``` and ```create-react-app```
 
-and 
+If you download this project, the first motion that you will need to do is ```npm install``` in the root folder of the project to install locally ```node_modules``` that I have attached to it.
 
-```create-react-app```
+```my-app
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    └── registerServiceWorker.js
+    ```
