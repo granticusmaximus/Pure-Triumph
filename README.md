@@ -1,5 +1,5 @@
 # Pure-Triumph
-## This will come as an open source boilerplate for anyone running [ReactJS](https://reactjs.org/)
+## This will come as an open source boilerplate for anyone running [ReactJS](https://reactjs.org/) and [PostGRE SQL](https://www.postgresql.org)
 
 ### My personal use for this boilerplate: 
 
