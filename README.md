@@ -3,11 +3,6 @@
 
 ### My personal use for this boilerplate: 
 
-Major | Minor
------------- | -------------
-Updating my personal site using ReactJS | Updating my personal site using PostgreSQL
-Updating my personal site using NodeJS | Content column 2
-
 * Major
   * Updating my personal site using ReactJS
   * Updating my personal site using NodeJS
