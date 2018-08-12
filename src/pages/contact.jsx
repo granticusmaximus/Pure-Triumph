@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 
-const Contact = () => (
+export const Contact = () => (
     <div className="container">
       <h1>
         Contact
@@ -14,5 +14,3 @@ const Contact = () => (
       </p>
     </div>
   );
-
-export default Contact;

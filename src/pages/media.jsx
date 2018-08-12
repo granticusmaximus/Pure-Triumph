@@ -1,10 +1,10 @@
 import '../App.css';
 import React from 'react';
 
-const Media = () => (
+export const Media = () => (
     <div className="container">
       <h1>
-        About
+        Media Page
       </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper porta dictum. Fusce gravida faucibus quam, quis convallis orci rhoncus quis. Praesent sodales risus neque, ut suscipit sapien bibendum at. Aliquam erat volutpat. Pellentesque sit amet elementum est. Ut id ligula nec turpis ultrices varius eu non risus. Nulla metus lacus, ultrices in tortor ac, dignissim fringilla lacus. Sed gravida enim dolor. Donec nec blandit justo, commodo suscipit est. Cras et diam id ligula hendrerit pellentesque quis a felis. Sed tempus lectus tortor, vehicula accumsan nulla sagittis ut. Duis et nisi nisi.
@@ -14,5 +14,3 @@ const Media = () => (
       </p>
     </div>
   );
-
-export default Media;

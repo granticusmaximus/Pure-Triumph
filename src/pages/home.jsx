@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 
-const Home = () => (
+export const Home = () => (
     <div className="container">
       <h1>
         Welcome to Triumph!
@@ -23,5 +23,3 @@ const Home = () => (
       </p>
     </div>
   );
-
-export default Home;
