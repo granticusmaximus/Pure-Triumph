@@ -1,31 +1,24 @@
+import '../App.css';
 import React from 'react';
-import { Button, ButtonGroup } from 'reactstrap';
+import { Router, Route } from 'react-router'
+import MainLayout from './layouts/main_layout.jsx';
+import EmptyLayout from './layouts/empty_layout.jsx';
+import Home from './pages/home.jsx';
+import About from './pages/about.jsx';
+import NotFound from './pages/not_found.jsx';
+import SignIn from './pages/sign_in.jsx';
 
-export default class NavBarMenu extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return (
-      <div className={"navbar-default"} style={{ backgroundColor: "#263342", height: "60px" }}>
-        <div className={"container-fluid"}>
-            <div className={"row"}>
-                <div className={"navbar"}>
-                    <ul className={"nav navbar-nav"} style={{ width: "100%" }}>
-                        <div className={"col-xs-6 text-left"} style={{ color: "white" }}>
-                          <ButtonGroup>
-                            <Button color="primary">Home</Button>{' '}
-                            <Button color="primary">About</Button>{' '}
-                            <Button color="primary">Contact</Button>{' '}
-                            <Button color="primary">Media</Button>{' '}
-                            <Button color="primary">Portfolio</Button>{' '}
-                          </ButtonGroup>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </div>
-      </div>
-    );
-  }
-}
+const NaviRoute = () => (
+  <Router>
+    <Route component={MainLayout}>
+      <Route path="/" component={Home} />
+      <Route path="/about" component={About} />
+    </Route>
+    <Route component={EmptyLayout}>
+      <Route path="/sign-in" component={SignIn} />
+    </Route>
+    <Route path="*" component={NotFound}/>
+  </Router>
+);
+
+export default NaviRoute;
