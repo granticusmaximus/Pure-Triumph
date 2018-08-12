@@ -20,6 +20,7 @@ This project is utilizing ```npm``` and ```create-react-app```
 If you download this project, the first motion that you will need to do is ```npm install``` in the root folder of the project to install locally ```node_modules``` that I have attached to it.
 
 The file structure of the application will be as follows:
+
 ```
 my-app
 ├── README.md
@@ -51,5 +52,6 @@ my-app
     ├── index.js
     ├── logo.svg
     └── registerServiceWorker.js
-    ```
+    
+```
 
