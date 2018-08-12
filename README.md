@@ -52,4 +52,4 @@ my-app
     ├── logo.svg
     └── registerServiceWorker.js
     ```
-Though files may be missing to this structure currently, this will be the final structure and maintained files.
+
