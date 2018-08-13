@@ -15,14 +15,13 @@
 }
 
 .footer {
-   left: 0;
-   bottom: 0;
-   height: 65px;
-   padding: 25px;
-   width: 100%;
-   background-color: #263342;
-   color: white;
-   text-align: center;
+  bottom: 0;
+  height: 65px;
+  padding: 25px;
+  width: 100%;
+  background-color: #263342;
+  color: white;
+  text-align: center;
 }
 
 .container {
@@ -30,8 +29,9 @@
   margin-bottom: 15px;
   width: 850px;
   height: auto;
+  border-radius: 3px;
   padding: 15px;
-  background-color: orange;
+  background-color: #c1bbb8;
   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;

@@ -5,6 +5,7 @@ import { Home } from "../pages/home";
 import { About } from "../pages/about";
 import { Contact } from "../pages/contact";
 import { Media } from "../pages/media";
+import { Services } from "../pages/services";
 import { Portfolio } from "../pages/portfolio";
 
 const NaviRoute = () => (
@@ -29,6 +30,11 @@ const NaviRoute = () => (
               </Link>
             </li>
             <li>
+              <Link to={"/services"} className="nav-link">
+                Services
+              </Link>
+            </li>
+            <li>
               <Link to={"/media"} className="nav-link">
                 Media
               </Link>
@@ -44,6 +50,7 @@ const NaviRoute = () => (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/services" component={Services} />
         <Route path="/contact" component={Contact} />
         <Route path="/media" component={Media} />
         <Route path="/portfolio" component={Portfolio} />
