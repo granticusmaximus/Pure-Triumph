@@ -1,0 +1,21 @@
+{
+  "name": "pure-triumph",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jest": "^23.4.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "react-scripts-ts": "^2.16.0",
+    "reactstrap": "^6.3.1",
+    "toastr": "^2.1.4",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
